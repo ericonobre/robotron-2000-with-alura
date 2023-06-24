@@ -63,3 +63,7 @@ function atualizaEstatisticas(peca, operacao) { //Adicionar outro parâmentro na
         }
     })
 }
+
+function trocaImagem(cor){
+    document.querySelector(".robo").src="img/robotron-" + cor + ".png";
+ }
